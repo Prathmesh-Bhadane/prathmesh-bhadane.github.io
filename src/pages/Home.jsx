@@ -1,6 +1,7 @@
 import { Link } from "react-router-dom"
 import { ArrowUpRight, Download } from "lucide-react"
 import Spectrum from "../components/Spectrum"
+import { Mail, Phone, GraduationCap, MapPin, Linkedin } from "lucide-react"
 import PhotoPlaceholder from "../components/PhotoPlaceholder"
 import { profile, stats, education, journey, nav } from "../data"
 
@@ -29,6 +30,12 @@ export default function Home() {
             <a className="btn btn--ghost" href={profile.cvUrl} download>
               <Download size={15} /> Download CV
             </a>
+            <a className="btn btn--ghost" href={profile.linkedinUrl} target="_blank" rel="noreferrer">
+            <Linkedin size={16} /> LinkedIn
+          </a>
+          <a className="btn btn--ghost" href={profile.scholarUrl} target="_blank" rel="noreferrer">
+            <GraduationCap size={16} /> Google Scholar
+          </a>
           </div>
 
           <dl className="hero__stats">

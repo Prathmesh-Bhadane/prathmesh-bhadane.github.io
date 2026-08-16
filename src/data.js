@@ -8,7 +8,7 @@ export const profile = {
   emails: ["20004831@iitb.ac.in", "prathmesh1378@gmail.com"],
   scholarUrl: "https://scholar.google.com/citations?user=r6tyiw8AAAAJ&hl=en&oi=ao",
   linkedinUrl: "https://www.linkedin.com/in/prathmesh-bhadane/",
-  cvUrl: "/Prathmesh B - CV.pdf",
+  cvUrl: "/Prathmesh Bhadane CV (2).pdf",
   location: "Mumbai, India",
 }
 
@@ -244,7 +244,7 @@ export const publications = [
   },
   {
     n: 7,
-    title: "Antibacterial activity of cellulose acetate–graphene oxide composites: a comprehensive multimethod assessment",
+    title: "Antibacterial activity of cellulose acetate-graphene oxide composites: a comprehensive multimethod assessment",
     authors: "Bhadane, P., Prajapati, D.G., Rambhia, A., Dotiyal, M., Pandey, P.K., Rajput, D., Mishra, A.",
     journal: "ACS Omega",
     year: "2025",
@@ -254,7 +254,7 @@ export const publications = [
   {
     n: 8,
     title:
-      "Hydrolytically stable nanosheets of Cu–imidazolate MOF for selective trapping and simultaneous removal of multiple heavy metal ions",
+      "Hydrolytically stable nanosheets of Cu-imidazolate MOF for selective trapping and simultaneous removal of multiple heavy metal ions",
     authors: "Bhadane, P., Mahato, P., Menon, D., Satpathy, B.K., Wu, L., Chakraborty, S., Goyal, P., Lynch, I., Misra, S.K.",
     journal: "Environmental Science: Nano",
     year: "2024",
@@ -281,7 +281,7 @@ export const publications = [
   },
   {
     n: 11,
-    title: "Versatile, flexible rice starch–graphene oxide bionanocomposites",
+    title: "Versatile, flexible rice starch-graphene oxide bionanocomposites",
     authors: "Bhadane, P., Mishra, A.",
     journal: "Environmental Science: Water Research & Technology",
     year: "2024",

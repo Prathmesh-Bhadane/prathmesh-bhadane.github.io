@@ -4,6 +4,7 @@ import { publications, conferences } from "../data"
 
 export default function Publications() {
   const cumulativeIF = publications.reduce((sum, p) => sum + parseFloat(p.if), 0)
+  const avg_IF=cumulativeIF/publications.length
   const sorted = [...publications].sort((a, b) => parseInt(b.year) - parseInt(a.year) || a.n - b.n)
 
   return (
@@ -12,7 +13,7 @@ export default function Publications() {
         <PageHead
           eyebrow="Publications"
           title="Peer-reviewed papers"
-          lead={`${publications.length} papers, cumulative impact factor of roughly ${cumulativeIF.toFixed(
+          lead={`${publications.length} papers, average impact factor of roughly ${avg_IF.toFixed(
             1
           )}, listed latest first.`}
         />
