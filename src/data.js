@@ -225,13 +225,12 @@ export const publications = [
   {
     n: 5,
     title:
-      "An end-to-end workflow for selective heavy metal capture and rare-earth element recovery using metal–organic frameworks",
+      "Selective heavy-metal sequestration and rare-earth element recovery using metal-organic frameworks",
     authors: "Menon, D., Bhadane, P., Goyal, P., Mahato, P., Chakraborty, S., Lynch, I., Mishra, S.",
     journal: "Nature Protocols",
     year: "2026",
     if: "16.0",
-    doi: null,
-    status: "Just accepted",
+    doi: "10.1038/s41596-026-01425-y",
   },
   {
     n: 6,
