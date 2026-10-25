@@ -34,11 +34,19 @@ export default function Research() {
           </div>
 
           <div className="research__patent card">
-            <p className="label-sm">Patent</p>
+            <p className="label-sm">Patent 1</p>
             <h3>{research.patent.title}</h3>
             <p className="research__patent-inventors">{research.patent.inventors}</p>
             <p className="research__patent-meta">
               {research.patent.body} &middot; App. No. {research.patent.number} &middot; {research.patent.date}
+            </p>
+          </div>
+          <div className="research__patent card">
+            <p className="label-sm">Patent 2</p>
+            <h3>{research.patent2.title}</h3>
+            <p className="research__patent-inventors">{research.patent2.inventors}</p>
+            <p className="research__patent-meta">
+              {research.patent2.body} &middot; App. No. {research.patent2.number} &middot; {research.patent2.date}
             </p>
           </div>
         </div>

@@ -8,13 +8,13 @@ export const profile = {
   emails: ["20004831@iitb.ac.in", "prathmesh1378@gmail.com"],
   scholarUrl: "https://scholar.google.com/citations?user=r6tyiw8AAAAJ&hl=en&oi=ao",
   linkedinUrl: "https://www.linkedin.com/in/prathmesh-bhadane/",
-  cvUrl: "/Prathmesh Bhadane CV (2).pdf",
+  cvUrl: "/Prathmesh Bhadane CV (4).pdf",
   location: "Mumbai, India",
 }
 
 export const stats = [
-  { value: "17", label: "Peer-reviewed papers" },
-  { value: "1", label: "Patent filed" },
+  { value: "18", label: "Peer-reviewed papers" },
+  { value: "2", label: "Patent filed" },
   { value: "8.84", label: "PhD CPI / 10" },
   { value: "98.12", label: "GATE 2021 percentile" },
 ]
@@ -105,6 +105,13 @@ export const research = {
     number: "202421047907",
     date: "21 Jun 2024",
   },
+  patent2:{
+    title: "Metal Organic Framework Particles",
+    inventors: "Prathmesh Bhadane, Swaroop Chakraborty ",
+    body: "UK Patent",
+    number: "2611413.2",
+    date: "21 May 2026",
+  }
 }
 
 export const researchInterests = [
@@ -342,6 +349,15 @@ export const publications = [
     if: "10.6",
     doi: "10.1039/d6gc03068h",
   },
+  {
+    n: 18,
+    title: "Adsorption-Programmed Transformation of a Two-Dimensional Cu-Imidazolate Framework into Mn-Integrated Catalytic Nanonetwork",
+    authors: "Prathmesh Bhadane, Ramesh Gayathri, Mayank Dotiyal, Abhijit Chhotray, Iuliia Mikulska, Superb K. Misra, Deepti Kalsi, Swaroop Chakraborty",
+    journal: "Green Chemistry",
+    year: "2026",
+    if: "11.8",
+    doi: "10.1002/smll.75834",
+  }
 ]
 
 export const conferences = [
