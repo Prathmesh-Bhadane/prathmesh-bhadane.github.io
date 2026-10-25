@@ -41,6 +41,7 @@ export default function Research() {
               {research.patent.body} &middot; App. No. {research.patent.number} &middot; {research.patent.date}
             </p>
           </div>
+          <div className="research__skills"></div>
           <div className="research__patent card">
             <p className="label-sm">Patent 2</p>
             <h3>{research.patent2.title}</h3>
